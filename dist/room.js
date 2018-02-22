@@ -18,6 +18,9 @@ var room_rutines = {
 	    			sources: {},
 	    			data: {} 
 	        	}
+
+	        	var sources = spawn_obj.room.find(FIND_SOURCES);
+	        	room_obj.sources = sources;
 	        	Memory.rooms[room_name] = room_obj;
 	        }
 		}
